@@ -1,5 +1,5 @@
 Для запуска сервера просто введи команду в терминал 
-go run .
-Если возникнут проблемы с библиотекой uuid введи в терминал 
-go get github.com/google/uuid
-и затем попробуйте запуск
+1. init go mod 
+2. go get github.com/google/uuid
+3. go mod tidy
+4. go run .
